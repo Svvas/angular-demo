@@ -1,0 +1,14 @@
+<div>
+  <h1>Frage {{questionNumber}}</h1>
+  <h2>{{question.questionText}}</h2>
+  <div>
+    <div>
+      <button (click)="postAnswer(1)">{{question.answerOne}}</button>
+      <button (click)="postAnswer(2)">{{question.answerTwo}}</button>
+    </div>
+    <div>
+      <button (click)="postAnswer(3)">{{question.answerThree}}</button>
+      <button (click)="postAnswer(4)">{{question.answerFour}}</button>
+    </div>
+  </div>
+</div>
